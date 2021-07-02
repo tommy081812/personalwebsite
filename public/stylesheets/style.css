@@ -1,0 +1,33 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: beige;
+}
+a {
+  color: #00B7FF;
+}
+li {
+  list-style: none;
+  font-size: 1.2em;
+}
+#unbold {
+  font-weight: lighter;
+  font-style: italic;
+  font-size:0.8em
+}
+.navi ul li {
+  text-align: center;
+  float: left;
+  width: 20%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: wheat;
+}
+.navi a:link {
+  text-decoration: none;
+}
+img {
+  border-radius: 50%;
+  width: 150px;
+  float: center;
+}

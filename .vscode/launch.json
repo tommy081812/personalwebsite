@@ -1,0 +1,14 @@
+{
+    "version":"0.2.0",
+    "configurations": [
+        {
+            "type":"node",
+            "request":"launch",
+            "name":"launch node.js program",
+            "url":"http://localhost:3000",
+            "webRoot":"${workspaceFolder}",
+            "runtimeExecutable": "npm",
+            "runtimeArgs": ["run-script","debug"]
+        }
+    ]
+}
